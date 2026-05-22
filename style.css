@@ -60,6 +60,21 @@ p:hover{
 .gallery{
     background-color: #F8EBA4;
 }
+.targeta{
+
+}
+.video{
+    border-radius: 20%;
+}
+.calendario{
+    width: 900px;
+    height: 705px;
+}
 .fotos{
     display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom:10%;
+    gap: 30px;
 }
