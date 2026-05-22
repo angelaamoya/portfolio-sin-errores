@@ -61,10 +61,10 @@ p:hover{
     background-color: #F8EBA4;
 }
 .targeta{
-
+margin-top: 23%
 }
 .video{
-    border-radius: 20%;
+    border-radius: 3%;
 }
 .calendario{
     width: 900px;
@@ -74,7 +74,7 @@ p:hover{
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 10%;
-    margin-bottom:10%;
+
     gap: 30px;
-}
+    margin-top: 10%;
+    margin-bottom:10%;}
