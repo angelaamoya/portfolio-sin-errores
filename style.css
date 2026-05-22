@@ -1,0 +1,44 @@
+body{
+    background-color: #99CFBA;
+}
+.estrella-titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.titulo{
+    z-index: 1;
+    position: relative;
+    display: flex;
+    margin-top: 20%;
+    flex-wrap: wrap;
+    margin-left: 15%;
+}
+.estrella{
+    z-index: 0;
+    display: flex;
+    position: absolute;
+    left: 25%;
+    bottom: 1px;
+}
+.estrella-titulo :last-child{
+    width: 830px;
+    height: 830px;
+}
+.estrella-titulo :first-child{
+    width: 1000px;
+    height: auto;
+}
+@font-face {
+    font-family: "Kuillo";
+    src: url("fuentes/KuilloChunk.OTF") format("truetype");
+}
+.secciones{
+    z-index: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.p{
+    font-family: "kuillo";
+}

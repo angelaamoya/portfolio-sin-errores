@@ -1,0 +1,23 @@
+<svg width="809" height="936" viewBox="0 0 809 936" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g filter="url(#filter0_df_128_11)">
+<path d="M404.104 4L494.194 309.96L804.207 235L584.284 466L804.207 697L494.194 622.04L404.104 928L314.014 622.04L4 697L223.924 466L4 235L314.014 309.96L404.104 4Z" fill="url(#pattern0_128_11)"/>
+<path d="M404.104 4L494.194 309.96L804.207 235L584.284 466L804.207 697L494.194 622.04L404.104 928L314.014 622.04L4 697L223.924 466L4 235L314.014 309.96L404.104 4Z" fill="#8FA7E9"/>
+</g>
+<defs>
+<filter id="filter0_df_128_11" x="0" y="0" width="808.208" height="936" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_128_11"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_128_11" result="shape"/>
+<feGaussianBlur stdDeviation="2" result="effect2_foregroundBlur_128_11"/>
+</filter>
+<pattern id="pattern0_128_11" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_128_11" transform="translate(-3.35294) scale(0.00980392)"/>
+</pattern>
+<image id="image0_128_11" width="786" height="102" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxIAAABmCAYAAABfn6eBAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJWSURBVHhe7dcxDQJRAERBQAc9IjBAjQEMnJ/zQ0+DAhI6TED/G/JyyRUwU66Bzdvepvm9WcH1eB4nYKHD4z5OwELP0yq3CH/lsn+NEz9gNw4AAADfCAkAACATEgAAQCYkAACATEgAAACZkAAAADIhAQAAZEICAADIhAQAAJAJCQAAIBMSAABAJiQAAIBMSAAAAJmQAAAAMiEBAABkQgIAAMiEBAAAkAkJAAAgExIAAEAmJAAAgExIAAAAmZAAAAAyIQEAAGRCAgAAyIQEAACQCQkAACATEgAAQCYkAACATEgAAACZkAAAADIhAQAAZEICAADIhAQAAJAJCQAAIBMSAABAJiQAAIBMSAAAAJmQAAAAMiEBAABkQgIAAMiEBAAAkAkJAAAgExIAAEAmJAAAgExIAAAAmZAAAAAyIQEAAGRCAgAAyIQEAACQCQkAACATEgAAQCYkAACATEgAAACZkAAAADIhAQAAZEICAADIhAQAAJAJCQAAIBMSAABAJiQAAIBMSAAAAJmQAAAAMiEBAABkQgIAAMiEBAAAkAkJAAAgExIAAEAmJAAAgExIAAAAmZAAAAAyIQEAAGRCAgAAyIQEAACQCQkAACATEgAAQCYkAACATEgAAACZkAAAADIhAQAAZEICAADIhAQAAJAJCQAAIBMSAABAJiQAAIBMSAAAAJmQAAAAMiEBAABkQgIAAMiEBAAAkAkJAAAgExIAAEAmJAAAgExIAAAAmZAAAAAyIQEAAGRCAgAAyIQEAACQCQkAACATEgAAQCYkAACATEgAAADZBz5tClL3GY5VAAAAAElFTkSuQmCC"/>
+</defs>
+</svg>
