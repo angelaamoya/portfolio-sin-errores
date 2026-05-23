@@ -19,7 +19,7 @@ body{
     z-index: 0;
     display: flex;
     position: absolute;
-    left: 25%;
+    left: 23%;
     bottom: 1px;
 }
 .estrella-titulo :last-child{
@@ -57,6 +57,11 @@ p:hover{
     color: #F8EBA4;
 }
 /**galeria**/
+.menicon{
+    max-width: 10%;
+    min-width: 3%;
+
+}
 .gallery{
     background-color: #F8EBA4;
 }
@@ -65,6 +70,8 @@ margin-top: 23%
 }
 .video{
     border-radius: 3%;
+    max-width: 100%;
+    min-width: 30%;
 }
 .calendario{
     width: 900px;
@@ -78,3 +85,140 @@ margin-top: 23%
     gap: 30px;
     margin-top: 10%;
     margin-bottom:10%;}
+    /**MENU**/
+    .menu{
+    background-color: #CD6C97;
+    }
+    @font-face {
+        font-family:helvetica light;
+        src: url(/fuentes/HelveticaNeueThin.otf)
+    }
+    .paginas{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    h2{
+        font-family: "helvetica light";
+        color: #F8EBA4;
+        font-size:100px ;
+        gap: 5px;
+        transition: 0.5s;
+        margin: 0;
+    }
+    h2:hover{
+        color: #99CFBA;
+    }
+    @media screen(480px) {
+    .paginas{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    h2{
+        font-family: "helvetica light";
+        color: #F8EBA4;
+        font-size:70px ;
+        gap: 5px;
+        transition: 0.5s;
+        margin: 0;
+    }
+    h2:hover{
+        color: #99CFBA;
+    }
+    } 
+    /**error en el media**/
+   /**about**/
+   .about{
+    background-color: #8FA7E9;
+   }
+   .titulo{
+    right: 9%;
+    margin-top:-20%;
+   }
+   .intro{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -10%;
+   }
+    @font-face {
+        font-family:"helvetica regular";
+        src: url(/fuentes/HelveticaNeueLight.otf)
+    }
+        @font-face {
+        font-family:"helvetica light";
+        src: url(/fuentes/HelveticaNeueUltraLight.otf)
+    }
+   h1, h3, h4{
+    font-size: 43px;
+    font-family:"helvetica regular";
+   }
+   .carpeta{
+    margin-left: 15%;
+    margin-right: 15%;
+   }
+.textos{
+    margin-left: 10%;
+    margin-right: 10%;
+
+   }
+   h2{
+    margin-left: 13%;
+    font-family: "helvetica light";
+    color: black;
+   }
+    h2:hover{
+    margin-left: 13%;
+    font-family: "helvetica light";
+    color: black;
+   }
+   h4{
+    margin-top: -3%;
+   }
+      /**ID**/
+   .{
+    background-color: #B687BB;
+   }
+   .titulo{
+    right: 9%;
+    margin-top:-20%;
+   }
+   .intro{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -10%;
+   }
+    @font-face {
+        font-family:"helvetica regular";
+        src: url(/fuentes/HelveticaNeueLight.otf)
+    }
+        @font-face {
+        font-family:"helvetica light";
+        src: url(/fuentes/HelveticaNeueUltraLight.otf)
+    }
+   h1, h3, h4{
+    font-size: 43px;
+    font-family:"helvetica regular";
+   }
+   .carpeta{
+    margin-left: 15%;
+    margin-right: 15%;
+   }
+.textos{
+    margin-left: 10%;
+    margin-right: 10%;
+
+   }
+   h2{
+    margin-left: 13%;
+    font-family: "helvetica light";
+    color: black;
+   }
+    h2:hover{
+    margin-left: 13%;
+    font-family: "helvetica light";
+    color: black;
+   }
+   h4{
+    margin-top: -3%;
+   }
