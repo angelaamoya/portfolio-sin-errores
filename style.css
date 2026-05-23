@@ -162,21 +162,16 @@ margin-top: 23%
     margin-right: 10%;
 
    }
-   h2{
-    margin-left: 13%;
+   h3{
+    margin-left: 20%;
     font-family: "helvetica light";
     color: black;
    }
-    h2:hover{
-    margin-left: 13%;
-    font-family: "helvetica light";
-    color: black;
-   }
-   h4{
+   h5{
     margin-top: -3%;
    }
       /**ID**/
-   .{
+   .id{
     background-color: #B687BB;
    }
    .titulo{
@@ -196,7 +191,7 @@ margin-top: 23%
         font-family:"helvetica light";
         src: url(/fuentes/HelveticaNeueUltraLight.otf)
     }
-   h1, h3, h4{
+   h1, h4, h5{
     font-size: 43px;
     font-family:"helvetica regular";
    }
@@ -204,21 +199,17 @@ margin-top: 23%
     margin-left: 15%;
     margin-right: 15%;
    }
-.textos{
+    .textos{
     margin-left: 10%;
     margin-right: 10%;
 
    }
-   h2{
-    margin-left: 13%;
+   h3{
+    margin-left: 20%;
     font-family: "helvetica light";
     color: black;
    }
-    h2:hover{
-    margin-left: 13%;
-    font-family: "helvetica light";
-    color: black;
-   }
-   h4{
+
+   h5{
     margin-top: -3%;
    }
