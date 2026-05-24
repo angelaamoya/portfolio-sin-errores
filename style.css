@@ -83,7 +83,7 @@ margin-top: 23%
     justify-content: center;
 
     gap: 30px;
-    margin-top: 10%;
+    margin-top: 0%;
     margin-bottom:10%;}
     /**MENU**/
     .menu{
@@ -176,7 +176,7 @@ margin-top: 23%
    }
    .titulo2{
     right: 9%;
-    margin-top:-20%;
+    margin-top:-10%;
    }
    .intro{
     margin-left: 10%;
@@ -211,3 +211,4 @@ margin-top: 23%
    }
    h5{
     margin-top: -3%;
+}
