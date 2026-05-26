@@ -11,7 +11,7 @@ body{
     z-index: 1;
     position: relative;
     display: flex;
-    margin-top: 20%;
+    margin-top: 10%;
     flex-wrap: wrap;
     margin-left: 15%;
 }
@@ -19,12 +19,12 @@ body{
     z-index: 0;
     display: flex;
     position: absolute;
-    left: 23%;
+    left: 20%;
     bottom: 1px;
 }
 .estrella-titulo :last-child{
-    width: 830px;
-    height: 830px;
+    width: 750px;
+    height: 750px;
 }
 .estrella-titulo :first-child{
     width: 1000px;
@@ -85,6 +85,11 @@ margin-top: 23%
     gap: 30px;
     margin-top: 0%;
     margin-bottom:10%;}
+.pc{
+    gap: 20px;
+    display:flex
+    flex-wrap:;
+}
     /**MENU**/
     .menu{
     background-color: #CD6C97;
