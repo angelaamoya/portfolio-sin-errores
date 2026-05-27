@@ -1,4 +1,9 @@
 /**home**/
+*{
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
 body{
     background-color: #99CFBA;
 }
@@ -6,30 +11,24 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
 }
 .titulo{
-    z-index: 1;
-    position: relative;
-    display: flex;
-    margin-top: 10%;
-    flex-wrap: wrap;
-    margin-left: 15%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%, -50%);
 }
 .estrella{
-    z-index: 0;
-    display: flex;
-    position: absolute;
-    left: 20%;
-    bottom: 1px;
+    display: block;
+    width:auto;
+    height:100vh;
 }
-.estrella-titulo :last-child{
-    width: 750px;
-    height: 750px;
-}
-.estrella-titulo :first-child{
-    width: 1000px;
-    height: auto;
-}
+
 @font-face {
     font-family: "Kuillo";
     src: url("fuentes/KuilloChunk.OTF") format("truetype");
@@ -37,21 +36,18 @@ body{
 .secciones{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     position: relative;
-    gap: 40px;
-    top: 20%;
+    top: 50%;
 }
-p{
+.secciones>a{
     font-size: 40px;
     font-family: "kuillo";
     color: #CD6C97;
     transition: 0.5s;
-}
-a{
     text-decoration: none;
 }
-p:hover{
+.secciones>a:hover{
     font-size: 40px;
     font-family: "kuillo";
     color: #F8EBA4;
@@ -81,53 +77,48 @@ margin-top: 23%
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
-
     gap: 30px;
     margin-top: 0%;
     margin-bottom:10%;}
 .pc{
-    gap: 20px;
-    ;v 
+
 }
     /**MENU**/
     .menu{
     background-color: #CD6C97;
     }
+
     @font-face {
         font-family:helvetica light;
-        src: url(/fuentes/HelveticaNeueThin.otf)
+        src: url(/fuentes/HelveticaNeueLight.otf)
     }
     .paginas{
         display: flex;
         flex-direction: column;
         gap: 15px;
     }
-    h2{
+    .paginas>a{
         font-family: "helvetica light";
         color: #F8EBA4;
         font-size:100px ;
         gap: 5px;
         transition: 0.5s;
         margin: 0;
+        text-decoration: none;
     }
-    h2:hover{
+    .paginas>a:hover {
         color: #99CFBA;
     }
-    @media screen(480px) {
+    @media screen and (max-width: 480px) {
     .paginas{
         display: flex;
         flex-direction: column;
         gap: 10px;
     }
-    h2{
-        font-family: "helvetica light";
-        color: #F8EBA4;
+    .paginas>a{
         font-size:70px ;
-        gap: 5px;
-        transition: 0.5s;
-        margin: 0;
     }
-    h2:hover{
+    .paginas>a:hover{
         color: #99CFBA;
     }
     } 
