@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../Desktop/web/CarruselCSS3"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501
+	}
+}
