@@ -101,7 +101,7 @@ margin-top: 23%
 .video{
     border-radius: 3%;
     max-width: 100%;
-    min-width: 30%;
+    min-width: 100%;
 }
 .calendario{
     width: 900px;
