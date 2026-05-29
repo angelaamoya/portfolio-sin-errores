@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+/* Maquetación de la sección */
+#carrusel {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+}
+
+#carrusel > h2 {
+    margin: 1rem 0;
+    font-size: 3rem;
+    font-weight: normal;
+}
+
+/* Maquetación del carrusel */
+
+/* Div externo: ventana. Con el overflow: hidden se evita que se vea la cinta de imágenes */
+#carrusel > div {
+    overflow: hidden;
+}
+
+/* Cinta de imágenes. Tiene position: relative para que se puedan desplazar a lo largo de su contenedor padre (el div ventana). Con display: flex las ponemos en horizontal. El ancho dependerá del número de imágenes, como tenemos 3, el ancho será del 300% (tres veces el padre) */
+#carrusel > div > div {
+    position: relative;
+    display: flex;
+    width: 300%;
+    margin: 0;
+    /* Animación descrita con el keyframes slider */
+    animation: 10s slider infinite;
+}
+
+#carrusel > div > div > figure {
+    flex: 30%;
+    position: relative;
+    /* Ponemos el position: relative para después poner el figcaption con position: absolute por encima */
+}
+
+/* Maquetación del figcaption para que aparezca por encima, colocado abajo del padre (el figure) y con el contenido flexible en vertical (columna) */
+#carrusel > div > div > figure > figcaption {
+    width: 100%;
+    height: 6em;
+    position: absolute;
+    bottom: 0;
+    padding-left: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+/* Definición de la animación para el movimiento. Hay que ajustar los porcentajes según el número de imágenes que tengamos. La animación consiste en desplazar la cinta de imágenes a lo largo de la ventana cambiando el valor de left. Left tiene efecto porque hemos definido un position en el div con la cinta de imágenes */
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+
+    25% {
+        left: 0;
+    }
+
+    30% {
+        left: -100%;
+    }
+
+    55% {
+        left: -100%;
+    }
+
+    60% {
+        left: -200%;
+    }
+
+    85% {
+        left: -200%;
+    }
+
+    100% {
+        left: 0;
+    }
+}

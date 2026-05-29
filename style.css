@@ -99,8 +99,18 @@ body{
 margin-top: 23%
 }
 .calendario{
-    width: 900px;
-    height: 705px;
+    width: 60%;
+    height: auto;
+    margin-top: 5%;
+}
+.calendario img{
+    width: 100%;
+}
+.tyc{
+    display:flex;
+    align-items: flex-end;
+    gap: 3rem;
+    justify-content: center;
 }
 .fotos2{
     display:flex;
@@ -112,7 +122,7 @@ margin-top: 23%
 .pc{
     display: flex;
     align-items: center;
-    postition:relative;
+    position:relative;
     width:100%;
 }
 .pc img:first-child{
@@ -126,6 +136,11 @@ z-index: 1;
     z-index: 2;
     margin-left:-2%;
 }
+.img{
+    width:100%;
+    vertical-align: middle;
+}
+
 
     /**MENU**/
     .menu{
