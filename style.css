@@ -140,7 +140,52 @@ z-index: 1;
     width:100%;
     vertical-align: middle;
 }
+.frame {
+    border: none;
+}
+.carrousel{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+@media screen and (max-width:768px){
+    .targeta{
+    width:60%;
+    margin-top: 23%
 
+    }
+    .calendario{
+        width: 60%;
+        height: auto;
+        margin-top: 5%;
+        margin-right: 10%;
+    }
+    .tyc{
+    display:flex;
+    align-items: flex-end;
+    gap: 0.3rem;
+    }
+    .cont{
+        display: flex;
+        justify-content: center;
+        width: 40%;
+    }
+}
+@media screen and (max-width:425px){
+     .tyc {
+        display: flex;
+        align-items: center;
+        gap: 0.3rem;
+        flex-direction: column;
+    }   
+    .pc{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    flex-direction: column;
+    }
+}
 
     /**MENU**/
     .menu{
